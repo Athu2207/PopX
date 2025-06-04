@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PopX/static/css/main.d8ea384c.css",
+    "main.js": "/PopX/static/js/main.ceceb0c4.js",
+    "static/js/453.3c4b86b9.chunk.js": "/PopX/static/js/453.3c4b86b9.chunk.js",
+    "index.html": "/PopX/index.html",
+    "main.d8ea384c.css.map": "/PopX/static/css/main.d8ea384c.css.map",
+    "main.ceceb0c4.js.map": "/PopX/static/js/main.ceceb0c4.js.map",
+    "453.3c4b86b9.chunk.js.map": "/PopX/static/js/453.3c4b86b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ea384c.css",
+    "static/js/main.ceceb0c4.js"
+  ]
+}
