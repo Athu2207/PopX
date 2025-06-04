@@ -1,0 +1,63 @@
+.outer-signup-page{
+    overflow: scroll;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.inner-input-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 2rem;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(235, 234, 240);
+    
+}
+h1{
+    font-size: x-large;
+}
+
+.inner-input-cont label{
+    color: blueviolet;
+    font-size: small;
+}
+.inner-input-cont input{
+    height: 5vh;
+    border-radius: 10px;
+    border: 1.5px solid rgb(200, 209, 209);
+    max-width: 40vw;
+    padding: 3px;
+    min-width: 20vw;
+}
+.inner-input-cont button{
+    border: none;
+    border-radius: 10px;
+    height: 6vh;
+    align-items: flex-end;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+
+    
+}
+.check-radio-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.check-radio-btn input{
+    height: 1.2rem;       
+  width: 1.2rem;        
+  min-width: 0;         
+  flex-shrink: 0;  
+    
+}
+
+.radio-1{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
