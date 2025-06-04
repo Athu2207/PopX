@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext } from 'react';
 import "./FinalOP.css"
 import NameContext from './ContextName';
+import profileImage from './assets/profile.jpeg';
 function FinalOP() {
     const {name} = useContext(NameContext);
     const {email} = useContext(NameContext);
@@ -11,9 +12,10 @@ function FinalOP() {
         <h3>Account Settings</h3>
         <hr></hr>
         <div className="profile-section">
-          <img src="profile.png"></img>
+          <img src={profileImage}/>
           <div className="text-seen">
-              <h1>Welcome , {name}</h1>
+
+              <h2>Welcome , {name}</h2>
                <h7>{email}</h7>
           </div>
       

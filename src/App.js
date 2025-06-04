@@ -5,6 +5,8 @@ import LoginScreen from './LoginScreen'
 import NameContext from './ContextName';
 import FinalOP from './FinalOP';
 import SignInPage from './SignInPage';
+import { Navigate } from 'react-router-dom';
+
 function App() {
   const[name,setname]=useState("")
   const[email,setemail]=useState("")
@@ -13,7 +15,8 @@ function App() {
 
     <Router>
       <Routes>
-         <Route path="/" element={<Popx />} />
+        <Route path="/" element={<Popx />} />
+        <Route path="/PopX" element={<Navigate to="/" replace />} />
         <Route path='/login' element={<LoginScreen/>}/>
         <Route path="/display" element={<FinalOP/>}/>
         <Route path="/signup" element={<SignInPage/>}/>

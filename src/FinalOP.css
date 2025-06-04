@@ -18,7 +18,6 @@ img{
     width: 5vw;
     height: 10vh;
 
-    bottom: 75vh;
 }
 .profile-section{
     display: flex;
@@ -26,5 +25,9 @@ img{
     gap: 1rem;
 }
 .text-seen{
-    padding-right: 1.5rem;
+margin: 0;
+padding: 0;
+    display: flex;
+    column-gap: 0;
+    flex-direction: column;
 }
