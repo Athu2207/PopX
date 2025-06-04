@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import NameContext from './ContextName';
 
 function LoginScreen() {
-    const{email,setemail}=useContext(NameContext)
-    const{name,setname}=useContext(NameContext)
+    const{setemail}=useContext(NameContext)
+    const{setname}=useContext(NameContext)
     const navigate=useNavigate();
   return (
     <div className='outer-login'>

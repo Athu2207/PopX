@@ -12,7 +12,7 @@ function FinalOP() {
         <h3>Account Settings</h3>
         <hr></hr>
         <div className="profile-section">
-          <img src={profileImage}/>
+          <img src={profileImage} alt='Profile'/>
           <div className="text-seen">
 
               <h2>Welcome , {name}</h2>
